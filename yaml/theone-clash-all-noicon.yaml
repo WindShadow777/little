@@ -6,8 +6,8 @@
 
 proxy-providers:
 
-  火烧云:
-    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
+  糖果云:
+    url: "https://gwdyhd.windshadow777.top:7238/sub?target=clash&url=https%3A%2F%2Fcandytally.cc%2Ftgyun_sub%3Ftoken%3D304cbeb9448082232c2cb8bcd1f12f41&insert=false&config=https%3A%2F%2Fgithub.moeyy.xyz%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2FWindShadow777%2FCLASH%2Frefs%2Fheads%2Fmain%2Ftheone-ClashAll.ini&emoji=true&list=false&tfo=false&scv=true&fdn=false&expand=true&sort=false&new_name=true"
     type: http
     interval: 86400
     health-check:
@@ -16,8 +16,8 @@ proxy-providers:
       interval: 300
     proxy: 直连 
 
-  小牛:
-    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
+  雷霆备用:
+    url: "https://gwdyhd.windshadow777.top:7238/sub?target=clash&url=https%3A%2F%2Fnn8qozmu.nn8qozmu.top%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D1fd286de77a7c04a803d13ef0bbc756e&insert=false&config=https%3A%2F%2Fgithub.moeyy.xyz%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2FWindShadow777%2FCLASH%2Frefs%2Fheads%2Fmain%2Ftheone-ClashAll.ini&emoji=true&list=false&tfo=false&scv=true&fdn=false&expand=true&sort=false&new_name=true"
     type: http
     interval: 86400
     health-check:
@@ -26,45 +26,8 @@ proxy-providers:
       interval: 300
     proxy: 直连    
 
-  硅谷:
-    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 300
-    proxy: 直连      
-   
-  猫耳:
-    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 300
-    proxy: 直连   
 
-  快猫:
-    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 300
-    proxy: 直连    
 
-  牛逼:
-    url: "[订阅地址（机场原始地址/Sub-Store格式化后的地址）]"
-    type: http
-    interval: 86400
-    health-check:
-      enable: true
-      url: https://www.gstatic.com/generate_204
-      interval: 300
-    proxy: 直连      
 
 proxies:
   - {name: 直连, type: direct}
@@ -99,7 +62,8 @@ dns:
   enhanced-mode: fake-ip
   fake-ip-range: 198.20.0.1/16
   nameserver:
-    - 223.5.5.5
+    - 222.246.129.80
+    - 59.51.78.210
   fake-ip-filter:
     - +.lan
     - +.local
@@ -111,7 +75,7 @@ dns:
     - +.xiaoniuyun.cc
     - +.huawei-cloud.shop
     - +.472361.xyz
-
+    - +.windshadow777.top
 ipv6: true
 
 # ========================
